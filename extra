@@ -5,10 +5,13 @@ Ecma 7
 > variable
 > Operations
 > condition
+> String
+> Math
+/////
+> github
 > localstorage
 > sessionStorage
 > cookies
-> github
 > String literals
 > if else
 > ternery Operations
@@ -17,10 +20,8 @@ Ecma 7
 > array
 > regex
 > loops
-> 
- 
 > Es6
-    > lat, const
+    > let, const
     > maps,filter
 > Clousers
 > Hoisting
