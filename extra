@@ -7,7 +7,6 @@ Ecma 7
 > condition
 > String
 > Math
-/////
 > github
 > localstorage
 > sessionStorage
@@ -15,6 +14,7 @@ Ecma 7
 > String literals
 > if else
 > ternery Operations
+/////
 > Date
 > switch
 > array
@@ -53,3 +53,28 @@ Ecma 7
 > Weather application
 > ajax
 > Baisc Jquery
+
+
+git clone https://github.com/Aakashdeveloper/testgitJuly.git
+
+///////First Time/////
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testgitJuly.git
+git push -u origin master
+
+//////Next Time from same folder for same repo///////
+git add .
+git commit -m "second commit"
+git push
+
+git add filename filename
+
+/////////
+git checkout -b myhomefeature
+git add .
+git commit -m "second commit"
+git push -u origin myhomefeature
+
+//////////
