@@ -200,3 +200,38 @@ city.flat()
 (8) ["Delhi", "Mumbai", 4, 5, Array(3), true, "pune", "Helsinki"]
 city.flat(2)
 (10) ["Delhi", "Mumbai", 4, 5, 6, "a", "b", true, "pune", "Helsinki"]
+
+
+var a = [10,20,30,40]
+a.fill(100,3)
+(4) [10, 20, 30, 100]
+var a = [10,20,30,40]
+a.fill(100,2)
+(4) [10, 20, 100, 100]
+var a = [10,20,30,40]
+a.fill(100,1)
+(4) [10, 100, 100, 100]
+var a = [10,20,30,40]
+a.fill(100,1,2)
+(4) [10, 100, 30, 40]
+var a = [10,20,30,40]
+a.fill(100,1,3)
+(4) [10, 100, 100, 40]
+
+var city = ["London", "Delhi", "Mumbai", "Paris", "Amsterdam", "Venice", "Innsburg"]
+undefined
+city.copyWithin(2,4,6)
+(7) ["London", "Delhi", "Amsterdam", "Venice", "Amsterdam", "Venice", "Innsburg"]
+city.copyWithin(2,4,7)
+(7) ["London", "Delhi", "Amsterdam", "Venice", "Innsburg", "Venice", "Innsburg"]
+city.copyWithin(2,3,5)
+(7) ["London", "Delhi", "Venice", "Innsburg", "Innsburg", "Venice", "Innsburg"]
+var city = ["London", "Delhi", "Mumbai", "Paris", "Amsterdam", "Venice", "Innsburg"]
+undefined
+undefined
+city
+(7) ["London", "Delhi", "Mumbai", "Paris", "Amsterdam", "Venice", "Innsburg"]
+city.copyWithin(2,4,5)
+(7) ["London", "Delhi", "Amsterdam", "Paris", "Amsterdam", "Venice", "Innsburg"]
+city.copyWithin(0,3)
+(7) ["Paris", "Amsterdam", "Venice", "Innsburg", "Amsterdam", "Venice", "Innsburg"]

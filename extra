@@ -16,13 +16,14 @@ Ecma 7
 > ternery Operations
 > Date
 > switch
-/////
 > array
 > regex
+/////
 > loops
 > Es6
     > let, const
     > maps,filter
+> Functions
 > Clousers
 > Hoisting
 > Transpile
