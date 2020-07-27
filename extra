@@ -18,20 +18,20 @@ Ecma 7
 > switch
 > array
 > regex
-/////
 > loops
 > Es6
     > let, const
     > maps,filter
 > Functions
+/////
 > Clousers
 > Hoisting
-> Transpile
+> object 
 > this 
 > Es6
     > classes
+    > Transpile
     > import export
-> object 
 > Prototypes
 > Call/Apply
 > package.JSON

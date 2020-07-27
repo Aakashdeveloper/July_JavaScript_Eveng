@@ -55,3 +55,9 @@ var isEven = function(num){
 isEven(2343)
 
 
+
+//////Es6//////
+////Arrow Function///////
+var add = (a,b) => { return a+b}
+
+add(1,2)
