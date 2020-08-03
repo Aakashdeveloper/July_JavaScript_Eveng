@@ -23,16 +23,18 @@ Ecma 7
     > let, const
     > maps,filter
 > Functions
-/////
 > Clousers
 > Hoisting
+> JSON
 > object 
 > this 
+> Prototypes
+/////
 > Es6
     > classes
     > Transpile
     > import export
-> Prototypes
+
 > Call/Apply
 > package.JSON
 > npm
@@ -45,7 +47,6 @@ Ecma 7
 > promis
 > async await
 > Progress bar
-> JSON
 > palindrome
 > fabonicci
 > factorial
