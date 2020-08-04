@@ -29,15 +29,14 @@ Ecma 7
 > object 
 > this 
 > Prototypes
-/////
 > Es6
     > classes
     > Transpile
     > import export
-
-> Call/Apply
 > package.JSON
 > npm
+/////
+> Call/Apply
 > DoM
 > Geolocation
 > Form validation
@@ -80,3 +79,8 @@ git commit -m "second commit"
 git push -u origin myhomefeature
 
 //////////
+creating the package.JSON
+**NodeJs must be installed in system
+> go to folder where you want to generate
+> npm init -y
+> npm i @babel/core @babel/preset-env @babel/register
