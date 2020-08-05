@@ -1,0 +1,72 @@
+<html>
+    <head>
+        <script>
+            const validatefname=() => {
+                var name = document.getElementById('fname').value;
+                if(name==' '||name==''){
+                    document.getElementById('out').innerText="Please enter first name"
+                }else{
+                    document.getElementById('out').innerText=""
+                }
+            }
+            const validatepass = () => {
+                var pwd = document.getElementById('pwd').value;
+                if(pwd.length<8){
+                    document.getElementById('out').innerText="Min length is 8"
+                }else{
+                    document.getElementById('out').innerText=""
+                }
+            }
+            function validatecpass(){
+                var pwd = document.getElementById('pwd').value;
+                var cpwd = document.getElementById('cpwd').value;
+                if(pwd !== cpwd){
+                    document.getElementById('out').innerText="Password does not match9643"
+                }else{
+                    document.getElementById('out').innerText=""
+                } 
+            }
+
+            const validateemail = () => {
+                var email = document.getElementById('email').value;
+                if(email==' '||email==''){
+                    document.getElementById('out').innerText="Please enter email"
+                }else{
+                    if(email.match("^([a-zA-Z0-9]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,5})$")==null){
+                        document.getElementById('out').innerText="Please enter valid email"
+                    }else{
+                        document.getElementById('out').innerText=""
+                    }
+                } 
+            }
+        </script>
+
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>FirstName</label>
+                <input type="text" id="fname"
+                onblur="validatefname()"/>
+            </div>
+            <div>
+                <label>LastName</label>
+                <input type="text" id="lname"/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="text" id="pwd" oninput="validatepass()"/>
+            </div>
+            <div>
+                <label>Confirm Password</label>
+                <input type="text" id="cpwd" oninput="validatecpass()"/>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" onblur="validateemail()"/>
+            </div>
+        </form>
+        <p id="out" style="color:red"></p>
+
+    </body>
+</html>
