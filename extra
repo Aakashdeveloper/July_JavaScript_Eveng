@@ -44,16 +44,20 @@ Ecma 7
 > promis
 > async await
 > Progress bar
-/////
-> Call/Apply
-> palindrome
-> fabonicci
-> factorial
 > screen
 > Dynamic DropDown
+> fabonicci
+> factorial
+> Call/Apply
+> palindrome
 > Weather application
 > ajax
 > Baisc Jquery
+
+$('h1')[0].innerText
+"I'm AAKASH HANDA"
+$('h1')[0].innerText="I am from nareshit"
+"I am from nareshit"
 
 
 git clone https://github.com/Aakashdeveloper/testgitJuly.git

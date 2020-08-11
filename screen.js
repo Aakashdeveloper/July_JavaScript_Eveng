@@ -1,0 +1,12 @@
+screen.width
+1024
+screen.width
+375
+screen.width
+360
+screen.height
+640
+screen.colorDepth
+24
+screen.pixelDepth
+24
